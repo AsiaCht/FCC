@@ -1,2 +1,2 @@
 const lastName = "Lovelace";
-const lastLetterOfLastName = lastName[-1]; 
+const lastLetterOfLastName = lastName[lastName.length - 1];
