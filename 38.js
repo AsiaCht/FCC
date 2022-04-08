@@ -1,6 +1,6 @@
-function myLocalScope() {
-    var myVar = "foo"
-      console.log('inside myLocalScope', myVar);
-    }
-    myLocalScope();
-    console.log('outside myLocalScope', myVar);
+const outerWear = "T-Shirt";
+function myOutfit() {
+const outerWear = "sweater" 
+  return outerWear;
+}
+myOutfit();

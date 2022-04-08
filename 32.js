@@ -1,7 +1,7 @@
-const myArray = [
-  ["dun", 26], 
-  ["Tan", 29],
-  ["Ber", 30],
-  ["Tom", 27], 
-  ["lol", 52]
+const myList = [
+  ["ton", 25],
+  ["mor", 65],
+  ["kap", 75],
+  ["laos", 45],
+  ["mokko", 85],
   ];

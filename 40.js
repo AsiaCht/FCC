@@ -1,10 +1,6 @@
-let sum = 0;
-function addThree() {
-  sum = sum + 3;
-}
-function addFive() {
-  sum = sum + 5;
-}
+let processed = 0;
 
-addThree();
-addFive();
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7)

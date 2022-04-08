@@ -1,7 +1,7 @@
-function compareEquality(a, b) {
-    if (a === b) { 
-      return "Equal";
+function testNotEqual(val) {
+    if (val != 99) { 
+      return "Not Equal";
     }
-    return "Not Equal";
+    return "Equal";
   }
-  compareEquality(10, "10");
+testNotEqual(10);

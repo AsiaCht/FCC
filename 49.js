@@ -1,7 +1,12 @@
-function testStrictNotEqual(val) {
-    if (val!== 17) { 
-      return "Not Equal";
+function testGreaterThan(val) {
+    if (val > 100) { 
+      return "Over 100";
     }
-    return "Equal";
+  
+    if (val > 10) { 
+      return "Over 10";
+    }
+  
+    return "10 or Under";
   }
-testStrictNotEqual(10);
+testGreaterThan(10);

@@ -1,6 +1,14 @@
-function timesFive(num) {
-    return num * 5;
+let myGlobal = 10;
+function fun1() {
+oopsGlobal = 5;
+}
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
   }
-  console.log(timesFive(5));
-  console.log(timesFive(2));
-  console.log(timesFive(0));
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}

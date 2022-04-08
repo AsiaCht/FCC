@@ -1,7 +1,7 @@
-function testNotEqual(val) {
-    if (val != 99) { 
+function testStrictNotEqual(val) {
+    if (val!== 17) { 
       return "Not Equal";
     }
     return "Equal";
   }
-testNotEqual(10);
+testStrictNotEqual(10);

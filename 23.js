@@ -1,1 +1,1 @@
-const myArray = ["Pretty", 1];
+const myArray = [["Dina", 23], ["Mariya", 25]];
